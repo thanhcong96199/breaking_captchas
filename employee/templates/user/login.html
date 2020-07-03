@@ -20,6 +20,7 @@
 
 {#            {{ login_form.password }} #}
             <input type="password" id="password_id" class="password_login" name="password">
+            <p id="email_passwor_error"></p>
             <br>
 
 {#            {% for field in login_form %}#}
@@ -34,7 +35,7 @@
         <div class="control">
             <div class="text-captcha" style="vertical-align: top">
                 <input type="text" id="textcaptcha" class="captcha" placeholder="Enter checking code" value="1234" name="textcaptcha">
-
+                <p id="captcha_error"></p>
             </div>
 
             <div class="img-captcha">

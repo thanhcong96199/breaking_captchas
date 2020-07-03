@@ -1403,3 +1403,9 @@
   color: red;
   font-family: Montserrat,Noto Sans CJK JP,sans-serif!important;
 }
+
+.error_class {
+  font-size: 0.8em;
+  color: red;
+  margin-top: 3px;
+}
