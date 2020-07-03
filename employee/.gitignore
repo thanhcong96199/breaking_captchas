@@ -1,0 +1,14 @@
+.idea/
+../idea/
+venv/
+captcha/
+__pycache__
+*.pyc
+*.pyo
+.env
+*sqlite3
+bin
+logs/*
+lib64
+.installed.cfg
+../ignore888

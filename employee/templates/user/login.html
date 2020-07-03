@@ -1,0 +1,57 @@
+{% extends "user/base_student.html" %}
+{% load staticfiles %}
+{% load static %}
+{% block content %}
+<div class="studenHR__login1">
+{#    <a href="{% url 'login-student' %}" class="login1__logo">#}
+{#        <img src="{% static 'assets/student/images/studen-logo.png' %}" alt="">#}
+{#    </a>#}
+    <div class="wp__form_login1">
+        {% csrf_token %}
+        <form action="{% url 'login-student' %}" class="form__login" method="post">
+            {% csrf_token %}
+            <h3 class="label__account_login">Sign In</h3>
+            <label class="label__account email" for="email">Email</label> <br>
+{#            {{ login_form.email }}#}
+            <input type="email" id="email" class="email_login" name="email">
+
+            <br>
+            <label for="" class="label__account password" for="password">Password</label> <br>
+
+{#            {{ login_form.password }} #}
+            <input type="password" id="password_id" class="password_login" name="password">
+            <br>
+
+{#            {% for field in login_form %}#}
+{#                {% for error in field.errors %}#}
+{#                    <div class="errorText">{{ error }}</div>#}
+{#                {% endfor %}#}
+{#            {% endfor %}#}
+{#            {% if login_form.non_field_errors %}#}
+{#                <div class="errorText">{{ login_form.non_field_errors }}</div>#}
+{#            {% endif %}#}
+        <br/>
+        <div class="control">
+            <div class="text-captcha" style="vertical-align: top">
+                <input type="text" id="textcaptcha" class="captcha" placeholder="Enter checking code" value="1234" name="textcaptcha">
+
+            </div>
+
+            <div class="img-captcha">
+                <img src="{%static 'assets/student/image/012u.png'%}" class="img_captcha_gender" id="img_captcha_gender_refesh">
+                <a id="btn_refesh"><img class="img__refesh" src="{% static 'assets/student/image/refesh.jpg' %}"></a>
+
+            </div>
+
+
+        </div>
+
+
+            <button class="submit" type="submit" id="id_submit">Submit</button>
+{#            <a href="{% url 'reset-password-student' %}" class="remember__me">パスワードを忘れた方はこちら</a>#}
+{#            <a href="{% url 'signup-student' %}" class="register">はじめてご利用する方はアカウント登録</a>#}
+        </form>
+    </div>
+</div>
+    <script src="{% static 'assets/student/js/refesh.js' %}"></script>
+{% endblock %}

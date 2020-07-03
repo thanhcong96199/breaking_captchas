@@ -1,0 +1,1405 @@
+@charset "UTF-8";
+.studenHR__top {
+  margin: 0 auto; }
+  .studenHR__top .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__top .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__top .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__top .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__top .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__top .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__top .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__top .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__top .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__top .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__top .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__top .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__top .Top__box_msg {
+    margin: 40px auto auto;
+    max-width: 1203px; }
+  .studenHR__top .box_msg_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    position: relative;
+    padding: 26px 0; }
+    .studenHR__top .box_msg_item:not(:last-of-type) {
+      margin-bottom: 19px; }
+    .studenHR__top .box_msg_item .box_msg_square {
+      width: 94px;
+      height: 92px;
+      border-radius: 8px;
+      background-color: #cfcfcf;
+      margin-left: 42px; }
+    .studenHR__top .box_msg_item .box_msg_title {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 164px; }
+      .studenHR__top .box_msg_item .box_msg_title .box_msg_title_lg {
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+        line-height: 1.3;
+        margin-bottom: 13px; }
+      .studenHR__top .box_msg_item .box_msg_title .box_msg_title_sm {
+        font-size: 17px;
+        letter-spacing: 0.85px;
+        line-height: 1.2; }
+    .studenHR__top .box_msg_item .box_msg_confirm {
+      margin-right: 79px; }
+      .studenHR__top .box_msg_item .box_msg_confirm .box_msg_confirm_text {
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.75px;
+        line-height: 1.3;
+        color: #fff;
+        background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+        box-sizing: border-box;
+        position: relative;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        transition: all .4s ease; }
+        .studenHR__top .box_msg_item .box_msg_confirm .box_msg_confirm_text::after {
+          content: "2";
+          position: absolute;
+          width: 39px;
+          height: 39px;
+          color: #fff;
+          background-color: #00b0e0;
+          border-radius: 50%;
+          top: -21px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 21px;
+          right: -21px; }
+        .studenHR__top .box_msg_item .box_msg_confirm .box_msg_confirm_text:hover {
+          background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%);
+          transition: all .4s ease; }
+      .studenHR__top .box_msg_item .box_msg_confirm .box_msg_confirm_time {
+        font-size: 11.8px;
+        letter-spacing: 0.59px; }
+  .studenHR__top .Top__pagination {
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .studenHR__top .Top__pagination .Top__pagination_item {
+      transition: all .4s ease;
+      padding: 5px 10px;
+      border-radius: 4px; }
+      .studenHR__top .Top__pagination .Top__pagination_item:hover {
+        background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%); }
+        .studenHR__top .Top__pagination .Top__pagination_item:hover a {
+          color: #fff; }
+      .studenHR__top .Top__pagination .Top__pagination_item:not(:last-of-type) {
+        margin-right: 10px; }
+      .studenHR__top .Top__pagination .Top__pagination_item.active {
+        background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%); }
+        .studenHR__top .Top__pagination .Top__pagination_item.active a {
+          color: #fff; }
+      .studenHR__top .Top__pagination .Top__pagination_item a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #333; }
+
+.studenHR__login1 {
+  overflow: hidden;
+  background-image: url("../image/bg-login1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+  .studenHR__login1 .login1__logo {
+    margin-top: 17px;
+    width: 69px;
+    display: block;
+    height: 92px;
+    padding-left: 31px; }
+    .studenHR__login1 .login1__logo img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  .studenHR__login1 .wp__form_login1 {
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .studenHR__login1 .form__login {
+    width: 496px;
+    height: 574px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    padding: 44px 43px 32.5px 42px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16); }
+    .studenHR__login1 .form__login .label__account_login {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 42px;
+      text-align: center; }
+    .studenHR__login1 .form__login .label__account {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding-left: 15px; }
+    .studenHR__login1 .form__login input {
+      transition: all .4s ease;
+      border: 1px solid #bfbfbf;
+      border-radius: 7px;
+      padding-top: 22px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      width: 100%; }
+      .studenHR__login1 .form__login input:not(:last-of-type) {
+        margin-bottom: 22px; }
+      .studenHR__login1 .form__login input:focus {
+        border-color: red; }
+    .studenHR__login1 .form__login ::placeholder {
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: #c8c8c8;
+      font-weight: bold; }
+    .studenHR__login1 .form__login .password {
+      padding-top: 25px;
+      padding-bottom: 5px; }
+    .studenHR__login1 .form__login .submit {
+      transition: all .4s ease;
+      margin: 0 auto;
+      display: block;
+      padding: 15px 42px 16px 42px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin-top: 32px;
+      margin-bottom: 36px;
+      font-size: 20px; }
+      .studenHR__login1 .form__login .submit:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+    .studenHR__login1 .form__login .remember__me {
+      transition: all .4s ease;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: #000A68;
+      position: relative;
+      margin-bottom: 29.5px; }
+      .studenHR__login1 .form__login .remember__me:hover {
+        color: #cacef4; }
+      .studenHR__login1 .form__login .remember__me::after {
+        position: absolute;
+        content: "";
+        width: 251px;
+        height: 1px;
+        background-color: #000A68;
+        bottom: -6px;
+        left: 19%; }
+    .studenHR__login1 .form__login .register {
+      transition: all .4s ease;
+      position: relative;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: #000A68; }
+    .studenHR__login1 .form__login .control{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 10px;
+    }
+    .studenHR__login1 .form__login .control .img-captcha{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-left: 40px;
+    }
+    .studenHR__login1 .form__login .control .img-captcha .img_captcha_gender{
+      height: 70%;
+      width: 75%;
+    }
+    .studenHR__login1 .form__login .control .img-captcha .img__refesh{
+      height: 25px;
+      width: 25px;
+      padding-top: 17px;
+      padding-left: 20px;
+    }
+
+      .studenHR__login1 .form__login .register:hover {
+        color: #cacef4; }
+      .studenHR__login1 .form__login .register::after {
+        position: absolute;
+        content: "";
+        width: 251px;
+        height: 1px;
+        background-color: #000A68;
+        bottom: -6px;
+        left: 19%; }
+
+.studenHR__login2 {
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+  .studenHR__login2 .login1__logo {
+    margin-top: 17px;
+    width: 69px;
+    display: block;
+    height: 92px;
+    padding-left: 31px; }
+    .studenHR__login2 .login1__logo img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  .studenHR__login2 .wp__form_login2 {
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .studenHR__login2 .label__account_login {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 33px;
+    text-align: center; }
+  .studenHR__login2 .form__login {
+    width: 496px;
+    height: 506px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    padding: 44px 43px 32.5px 42px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16); }
+    .studenHR__login2 .form__login .label__account {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding-left: 15px; }
+    .studenHR__login2 .form__login input {
+      transition: all .4s ease;
+      border: 1px solid #bfbfbf;
+      border-radius: 7px;
+      padding-top: 22px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      width: 100%; }
+      .studenHR__login2 .form__login input:not(:last-of-type) {
+        margin-bottom: 22px; }
+      .studenHR__login2 .form__login input:focus {
+        border-color: red; }
+    .studenHR__login2 .form__login ::placeholder {
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: #c8c8c8; }
+    .studenHR__login2 .form__login .password {
+      padding-top: 25px;
+      padding-bottom: 5px; }
+    .studenHR__login2 .form__login .submit {
+      transition: all .4s ease;
+      margin: 0 auto;
+      display: block;
+      padding: 15px 42px 16px 42px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin-top: 32px;
+      margin-bottom: 36px;
+      font-size: 20px; }
+      .studenHR__login2 .form__login .submit:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+    .studenHR__login2 .form__login .remember__me {
+      transition: all .4s ease;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: #000A68;
+      position: relative;
+      margin-bottom: 29.5px; }
+      .studenHR__login2 .form__login .remember__me:hover {
+        color: #cacef4; }
+      .studenHR__login2 .form__login .remember__me::after {
+        position: absolute;
+        content: "";
+        width: 251px;
+        height: 1px;
+        background-color: #000A68;
+        bottom: -6px;
+        left: 19%; }
+    .studenHR__login2 .form__login .register {
+      transition: all .4s ease;
+      position: relative;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: #000A68; }
+      .studenHR__login2 .form__login .register:hover {
+        color: #cacef4; }
+      .studenHR__login2 .form__login .register::after {
+        position: absolute;
+        content: "";
+        width: 251px;
+        height: 1px;
+        background-color: #000A68;
+        bottom: -6px;
+        left: 19%; }
+
+.studenHR__login3 {
+  overflow: hidden;
+  background-image: url("../images/bg-login3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+  .studenHR__login3 .login1__logo {
+    margin-top: 17px;
+    width: 69px;
+    display: block;
+    height: 92px;
+    padding-left: 31px; }
+    .studenHR__login3 .login1__logo img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  .studenHR__login3 .wp__form_login3 {
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .studenHR__login3 .label__account_login {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 33px;
+    text-align: center; }
+  .studenHR__login3 .form__login {
+    width: 496px;
+    height: 506px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    padding: 44px 43px 32.5px 42px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16); }
+    .studenHR__login3 .form__login .label__account {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding-left: 15px; }
+    .studenHR__login3 .form__login input {
+      transition: all .4s ease;
+      border: 1px solid #bfbfbf;
+      border-radius: 7px;
+      padding-top: 22px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      width: 100%; }
+      .studenHR__login3 .form__login input:not(:last-of-type) {
+        margin-bottom: 22px; }
+      .studenHR__login3 .form__login input:focus {
+        border-color: red; }
+    .studenHR__login3 .form__login ::placeholder {
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: #c8c8c8; }
+    .studenHR__login3 .form__login .password {
+      padding-top: 25px;
+      padding-bottom: 5px; }
+    .studenHR__login3 .form__login .submit {
+      transition: all .4s ease;
+      margin: 0 auto;
+      display: block;
+      padding: 15px 42px 16px 42px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin-top: 32px;
+      margin-bottom: 36px;
+      font-size: 20px; }
+      .studenHR__login3 .form__login .submit:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+    .studenHR__login3 .form__login .remember__me {
+      transition: all .4s ease;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: #000A68;
+      position: relative;
+      margin-bottom: 29.5px; }
+      .studenHR__login3 .form__login .remember__me:hover {
+        color: #cacef4; }
+      .studenHR__login3 .form__login .remember__me::after {
+        position: absolute;
+        content: "";
+        width: 251px;
+        height: 1px;
+        background-color: #000A68;
+        bottom: -6px;
+        left: 19%; }
+    .studenHR__login3 .form__login .register {
+      transition: all .4s ease;
+      position: relative;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: #000A68; }
+      .studenHR__login3 .form__login .register:hover {
+        color: #cacef4; }
+      .studenHR__login3 .form__login .register::after {
+        position: absolute;
+        content: "";
+        width: 251px;
+        height: 1px;
+        background-color: #000A68;
+        bottom: -6px;
+        left: 19%; }
+
+.studenHR__msg {
+  margin: 0 auto; }
+  .studenHR__msg .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__msg .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__msg .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__msg .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__msg .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__msg .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__msg .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__msg .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__msg .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__msg .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__msg .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__msg .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__msg .Top__box_msg {
+    margin: 40px auto auto;
+    max-width: 1203px; }
+    .studenHR__msg .Top__box_msg .box__msg_head .box__msg_head_lg {
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 1.25px;
+      line-height: 1.3; }
+    .studenHR__msg .Top__box_msg .box__msg_head .box__msg_head_sm {
+      font-size: 19px;
+      letter-spacing: 0.95px;
+      line-height: 1.3; }
+    .studenHR__msg .Top__box_msg .box__msg_chat_content {
+      max-width: 1085px;
+      height: 565px;
+      overflow-y: scroll;
+      padding-right: 100px;
+      margin-top: 44px;
+      /* width */
+      /* Track */
+      /* Handle */ }
+      .studenHR__msg .Top__box_msg .box__msg_chat_content::-webkit-scrollbar {
+        width: 10px; }
+      .studenHR__msg .Top__box_msg .box__msg_chat_content::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+        background-color: #ebebeb; }
+      .studenHR__msg .Top__box_msg .box__msg_chat_content::-webkit-scrollbar-thumb {
+        background: #cccccc;
+        border-radius: 4px; }
+      .studenHR__msg .Top__box_msg .box__msg_chat_content .box__chat_user {
+        display: flex; }
+        .studenHR__msg .Top__box_msg .box__msg_chat_content .box__chat_user .msg__content {
+          font-size: 17px;
+          line-height: 1.29;
+          width: 471px;
+          padding: 24px 151px 46px 19px;
+          background-color: #f5f5f5;
+          box-sizing: border-box; }
+        .studenHR__msg .Top__box_msg .box__msg_chat_content .box__chat_user:not(:last-of-type) {
+          margin-bottom: 48px; }
+        .studenHR__msg .Top__box_msg .box__msg_chat_content .box__chat_user.odd .msg__content {
+          margin-left: 22px; }
+        .studenHR__msg .Top__box_msg .box__msg_chat_content .box__chat_user.even {
+          flex-direction: row-reverse; }
+          .studenHR__msg .Top__box_msg .box__msg_chat_content .box__chat_user.even .msg__content {
+            margin-right: 22px; }
+  .studenHR__msg .submit {
+    background-color: #fff;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.16);
+    position: relative;
+    padding: 16px 0;
+    bottom: -20px; }
+    .studenHR__msg .submit .form__submit {
+      width: 1150px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto; }
+    .studenHR__msg .submit input {
+      border: none;
+      background-color: #f1f1f1;
+      border-radius: 9px;
+      width: 854px;
+      height: 48px;
+      padding: 0 15px;
+      box-sizing: border-box; }
+    .studenHR__msg .submit .btn__submit {
+      border: none;
+      width: 122px;
+      height: 48px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border-radius: 9px;
+      margin-right: 134px;
+      transition: all .5s; }
+      .studenHR__msg .submit .btn__submit:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+
+.studenHR__account_setting {
+  height: 100vh;
+  background-image: url("../images/bg-accsetting.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .studenHR__account_setting .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__account_setting .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__account_setting .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__account_setting .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__account_setting .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__account_setting .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__account_setting .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__account_setting .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__account_setting .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__account_setting .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__account_setting .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__account_setting .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__account_setting .box__setting {
+    width: 751px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .studenHR__account_setting .box__setting .label__account_setting {
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 1.25px;
+      line-height: 1.3;
+      text-align: center;
+      margin-bottom: 51px; }
+    .studenHR__account_setting .box__setting .form__account_setting .wp_input {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .studenHR__account_setting .box__setting .form__account_setting .label__email {
+      font-size: 20px;
+      letter-spacing: 1px; }
+    .studenHR__account_setting .box__setting .form__account_setting .email {
+      border: 1px solid #222222;
+      border-radius: 7px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 27px;
+      width: 424px;
+      box-sizing: border-box;
+      transform: all .4s ease; }
+      .studenHR__account_setting .box__setting .form__account_setting .email::placeholder {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        color: #222222; }
+      .studenHR__account_setting .box__setting .form__account_setting .email:focus {
+        border-width: 2px; }
+    .studenHR__account_setting .box__setting .form__account_setting .btn__change {
+      transition: all .4s ease;
+      margin: 0 auto;
+      display: block;
+      padding: 14px 47px 14px 47px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin-top: 49px;
+      font-size: 20px; }
+      .studenHR__account_setting .box__setting .form__account_setting .btn__change:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+
+.studenHR__account_confirm {
+  height: 100vh;
+  background-image: url("../images/bg-confirm.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .studenHR__account_confirm .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__account_confirm .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__account_confirm .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__account_confirm .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__account_confirm .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__account_confirm .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__account_confirm .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__account_confirm .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__account_confirm .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__account_confirm .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__account_confirm .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__account_confirm .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__account_confirm .box__confirm .label__account_nontification {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .studenHR__account_confirm .box__confirm .label__account_nontification .label__account_nontification_text {
+      font-size: 25px;
+      display: block;
+      line-height: 1,3; }
+      .studenHR__account_confirm .box__confirm .label__account_nontification .label__account_nontification_text:not(:last-of-type) {
+        margin-bottom: 47px; }
+    .studenHR__account_confirm .box__confirm .label__account_nontification .btn__backtop {
+      transition: all .4s ease;
+      display: block;
+      padding: 14px 37px 14px 37px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin: 0 auto;
+      margin-top: 49px;
+      font-size: 20px; }
+      .studenHR__account_confirm .box__confirm .label__account_nontification .btn__backtop:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+
+.studenHR__account_confirm2 {
+  height: 100vh;
+  background-image: url("../images/bg-confirm2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .studenHR__account_confirm2 .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__account_confirm2 .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__account_confirm2 .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__account_confirm2 .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__account_confirm2 .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__account_confirm2 .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__account_confirm2 .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__account_confirm2 .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__account_confirm2 .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__account_confirm2 .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__account_confirm2 .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__account_confirm2 .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__account_confirm2 .box__confirm .label__account_nontification {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right; }
+    .studenHR__account_confirm2 .box__confirm .label__account_nontification .label__account_nontification_text {
+      font-size: 25px;
+      display: block;
+      line-height: 1,3; }
+      .studenHR__account_confirm2 .box__confirm .label__account_nontification .label__account_nontification_text:not(:last-of-type) {
+        margin-bottom: 47px; }
+    .studenHR__account_confirm2 .box__confirm .label__account_nontification .btn__action {
+      transition: all .4s ease;
+      display: block;
+      padding: 14px 37px 14px 37px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin: 0 auto;
+      margin-top: 49px;
+      font-size: 20px; }
+      .studenHR__account_confirm2 .box__confirm .label__account_nontification .btn__action:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+
+.studenHR__password_confirm .Top__header {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  min-height: 139px; }
+  .studenHR__password_confirm .Top__header .top__header_jobTotal {
+    position: absolute;
+    left: 168px;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    font-weight: bold; }
+  .studenHR__password_confirm .Top__header .top__header_logo {
+    width: 69px;
+    display: block;
+    height: 92px;
+    padding-left: 31px; }
+    .studenHR__password_confirm .Top__header .top__header_logo img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  .studenHR__password_confirm .Top__header .top__header_wp_user {
+    position: relative; }
+    .studenHR__password_confirm .Top__header .top__header_wp_user .top__header_account {
+      transition: all 0.4s ease;
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      padding: 17px 26.5px 19px 20px;
+      box-sizing: border-box;
+      background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+      border-radius: 14px;
+      width: 167px;
+      bottom: -161px;
+      right: 39px;
+      z-index: 1; }
+      .studenHR__password_confirm .Top__header .top__header_wp_user .top__header_account.active {
+        opacity: 1;
+        visibility: visible; }
+      .studenHR__password_confirm .Top__header .top__header_wp_user .top__header_account .account_info {
+        font-size: 15px;
+        line-height: 1.3;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.4s ease; }
+        .studenHR__password_confirm .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+          color: #836f6f; }
+      .studenHR__password_confirm .Top__header .top__header_wp_user .top__header_account .underline {
+        background-color: #fff;
+        width: 119px;
+        height: 1px;
+        margin: 15px 0; }
+  .studenHR__password_confirm .Top__header .thumb {
+    background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 39px;
+    position: relative;
+    cursor: pointer; }
+    .studenHR__password_confirm .Top__header .thumb img {
+      position: absolute;
+      left: -4px;
+      top: 3px; }
+
+.studenHR__password_confirm .label__account_password {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.25px;
+  line-height: 1.3;
+  text-align: center;
+  margin-top: 75px; }
+
+.studenHR__password_confirm .box__password {
+  width: 711px;
+  height: 354px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .studenHR__password_confirm .box__password .form__account_password {
+    width: 711px; }
+    .studenHR__password_confirm .box__password .form__account_password label, .studenHR__password_confirm .box__password .form__account_password input {
+      display: block; }
+    .studenHR__password_confirm .box__password .form__account_password input {
+      transition: all .4s ease;
+      box-sizing: border-box;
+      height: 59px;
+      border-radius: 7px;
+      border: 1px solid #707070;
+      padding: 0 15px;
+      width: 100%; }
+      .studenHR__password_confirm .box__password .form__account_password input:focus {
+        border-width: 2px; }
+      .studenHR__password_confirm .box__password .form__account_password input:not(:last-of-type) {
+        margin-bottom: 44px; }
+    .studenHR__password_confirm .box__password .form__account_password label {
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin-bottom: 12px; }
+    .studenHR__password_confirm .box__password .form__account_password .btn__change {
+      transition: all .4s ease;
+      margin: 0 auto;
+      display: block;
+      padding: 13px 61px 12px 61px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin-top: 60px;
+      font-size: 25px; }
+      .studenHR__password_confirm .box__password .form__account_password .btn__change:hover {
+        background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%); }
+
+.studenHR__unsub {
+  height: 100vh;
+  background-image: url("../images/unsubscribe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .studenHR__unsub .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__unsub .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__unsub .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__unsub .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__unsub .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__unsub .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__unsub .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__unsub .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__unsub .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__unsub .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__unsub .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__unsub .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__unsub .box__unsub {
+    width: 846px;
+    height: 469px;
+    padding: 61px 0px 70px 0;
+    box-sizing: border-box;
+    border-radius: 19px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .studenHR__unsub .box__unsub button{
+      transition: all .4s ease;
+      display: block;
+      padding: 14px 37px 14px 37px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin: 0 auto;
+      margin-top: 49px;
+      font-size: 20px;
+    }
+    .studenHR__unsub .box__unsub p {
+      font-size: 20px;
+      line-height: 1.3; }
+      .studenHR__unsub .box__unsub p:not(:last-of-type) {
+        margin-bottom: 44px; }
+      .studenHR__unsub .box__unsub p:nth-child(1) {
+        margin-left: 44px; }
+      .studenHR__unsub .box__unsub p:nth-child(2) {
+        margin-left: 44px; }
+      .studenHR__unsub .box__unsub p:nth-child(3) {
+        margin-left: 44px; }
+      .studenHR__unsub .box__unsub p:nth-child(4) {
+        margin-left: 44px; }
+
+.studenHR__withdraw {
+  height: 100vh;
+  background-image: url("../images/bg-withdraw.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .studenHR__withdraw .Top__header {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 139px; }
+    .studenHR__withdraw .Top__header .top__header_jobTotal {
+      position: absolute;
+      left: 168px;
+      font-size: 25px;
+      letter-spacing: 1.2px;
+      font-weight: bold; }
+    .studenHR__withdraw .Top__header .top__header_logo {
+      width: 69px;
+      display: block;
+      height: 92px;
+      padding-left: 31px; }
+      .studenHR__withdraw .Top__header .top__header_logo img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .studenHR__withdraw .Top__header .top__header_wp_user {
+      position: relative; }
+      .studenHR__withdraw .Top__header .top__header_wp_user .top__header_account {
+        transition: all 0.4s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        padding: 17px 26.5px 19px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(123deg, #003e8a 59%, #003069 88%);
+        border-radius: 14px;
+        width: 167px;
+        bottom: -161px;
+        right: 39px;
+        z-index: 1; }
+        .studenHR__withdraw .Top__header .top__header_wp_user .top__header_account.active {
+          opacity: 1;
+          visibility: visible; }
+        .studenHR__withdraw .Top__header .top__header_wp_user .top__header_account .account_info {
+          font-size: 15px;
+          line-height: 1.3;
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.4s ease; }
+          .studenHR__withdraw .Top__header .top__header_wp_user .top__header_account .account_info:hover {
+            color: #836f6f; }
+        .studenHR__withdraw .Top__header .top__header_wp_user .top__header_account .underline {
+          background-color: #fff;
+          width: 119px;
+          height: 1px;
+          margin: 15px 0; }
+    .studenHR__withdraw .Top__header .thumb {
+      background: linear-gradient(-21deg, #00bbe7 -3%, #00234c 91%);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 39px;
+      position: relative;
+      cursor: pointer; }
+      .studenHR__withdraw .Top__header .thumb img {
+        position: absolute;
+        left: -4px;
+        top: 3px; }
+  .studenHR__withdraw .box__withdraw {
+    width: 550px;
+    height: 540px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .studenHR__withdraw .box__withdraw .label__email {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 63px; }
+      .studenHR__withdraw .box__withdraw .label__email span {
+        font-size: 20px;
+        line-height: 1.3; }
+        .studenHR__withdraw .box__withdraw .label__email span:nth-child(2) {
+          margin-right: 129px; }
+    .studenHR__withdraw .box__withdraw .wp__form_withdraw {
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+    .studenHR__withdraw .box__withdraw .label_action {
+      font-size: 20px;
+      line-height: 1.3;
+      position: relative; }
+      .studenHR__withdraw .box__withdraw .label_action::after {
+        position: absolute;
+        content: "*必須";
+        font-size: 14px;
+        line-height: 1.3;
+        font-weight: 100;
+        top: -12px;
+        right: -31px; }
+    .studenHR__withdraw .box__withdraw .form__withdraw .option {
+      position: relative; }
+      .studenHR__withdraw .box__withdraw .form__withdraw .option:not(:last-of-type) {
+        margin-bottom: 42px; }
+      .studenHR__withdraw .box__withdraw .form__withdraw .option label::after {
+        position: absolute;
+        content: "";
+        width: 25px;
+        height: 25px;
+        border: 1px solid #707070;
+        border-radius: 50%;
+        top: -5px;
+        left: -40px; }
+      .studenHR__withdraw .box__withdraw .form__withdraw .option label::before {
+        position: absolute;
+        content: "";
+        width: 26px;
+        height: 26px;
+        background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+        border-radius: 50%;
+        top: -4px;
+        left: -40px;
+        transition: all 0.4s ease;
+        opacity: 0; }
+      .studenHR__withdraw .box__withdraw .form__withdraw .option input {
+        transition: all 0.4s ease;
+        position: absolute;
+        top: -3px;
+        left: -39px;
+        z-index: 1;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+        cursor: pointer; }
+      .studenHR__withdraw .box__withdraw .form__withdraw .option input:checked ~ label::before {
+        opacity: 1; }
+    .studenHR__withdraw .box__withdraw .form__withdraw .btn__withdraw {
+      transition: all 0.4s ease;
+      display: block;
+      padding: 19px 68px 19px 68px;
+      background: linear-gradient(-21deg, #00bbe7 -3%, #001973 91%);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      margin: 0 auto;
+      margin-top: 59px;
+      font-size: 20px;
+      left: 40%;
+      transform: translateX(-40%); }
+.studenHR__withdraw .box__withdraw .form__withdraw .btn__withdraw:hover {
+  background: linear-gradient(21deg, #00bbe7 -3%, #001973 91%);
+}
+
+.errorText {
+  margin: 15px 5px;
+  color: red;
+  font-family: Montserrat,Noto Sans CJK JP,sans-serif!important;
+}

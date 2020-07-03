@@ -1,0 +1,16 @@
+.idea/
+venv/
+__pycache__
+.installed.cfg
+bin
+*sqlite3
+.env
+.captcha
+*.pyc
+*.pyo
+downloads
+eggs
+parts
+./.idea
+./captcha
+./*sqlite3
