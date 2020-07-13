@@ -13,13 +13,15 @@
             <h3 class="label__account_login">Sign In</h3>
             <label class="label__account email" for="email">Email</label> <br>
 {#            {{ login_form.email }}#}
-            <input type="email" id="email" class="email_login" name="email">
+            <input type="email" id="email" class="email_login" name="email" placeholder="example@gmail.com">
+
 
             <br>
-            <label for="" class="label__account password" for="password">Password</label> <br>
+            <label for="" class="label__account password" for="password" >Password</label> <br>
 
 {#            {{ login_form.password }} #}
-            <input type="password" id="password_id" class="password_login" name="password">
+            <input type="password" id="password_id" class="password_login" name="password" placeholder="Please enter your email">
+
             <p id="email_passwor_error"></p>
             <br>
 
@@ -34,7 +36,7 @@
         <br/>
         <div class="control">
             <div class="text-captcha" style="vertical-align: top">
-                <input type="text" id="textcaptcha" class="captcha" placeholder="Enter checking code" value="1234" name="textcaptcha">
+                <input type="text" id="textcaptcha" class="captcha" placeholder="Enter checking code" value="012u" name="textcaptcha">
                 <p id="captcha_error"></p>
             </div>
 

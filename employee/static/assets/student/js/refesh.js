@@ -1,4 +1,24 @@
-
+// $("#email").on("change", function (event){
+//     debugger;
+//     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+//     if(!regex.test(event.target.value)){
+//         $("#email_mess").addClass('error_class');
+//         $("#email_mess").html('Please enter email like example@gmail.com');
+//     }else{
+//         $("#email_mess").removeClass('error_class');
+//     }
+// })
+//
+// $("password").on("change", function (event) {
+//     var regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+//     if(!regex.test(event.target.value)){
+//         $("#password_mess").addClass('error_class');
+//         $("#password_mess").html('Please enter password contain least 8 letters, uppercase, special letter');
+//     }else{
+//         $("#password_mess").removeClass('error_class');
+//     }
+//
+// })
 
 $("#btn_refesh").on("click", function () {
 
@@ -7,7 +27,7 @@ $("#btn_refesh").on("click", function () {
         method: 'GET',
         success: (data) => {
              $("#img_captcha_gender_refesh").attr('src', data.url)
-            $('0')
+            $("#textcaptcha").attr('value', data.value)
         },
         error: (error)=>{
 
@@ -37,7 +57,7 @@ $(".form__login").submit(function (event) {
             'csrfmiddlewaretoken': csrfmiddlewaretoken,
         },
         success: (data)=>{
-            debugger;
+
             console.log(data)
          if (data.error_email_password){
              $("#email_passwor_error").addClass('error_class');
@@ -55,7 +75,7 @@ $(".form__login").submit(function (event) {
              $("#captcha_error").removeClass('error_class');
          }
          if(data.success){
-             window.location.href='/done'
+             window.location.href='/student/done'
          }
 
         }
